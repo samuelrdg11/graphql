@@ -21,7 +21,7 @@ function MuestrePersonajes() {
   
     return data.characters.results.map(({id, name, species, gender  }) => (
       <div key={id}>
-        <h3>{name}</h3>
+        <h3>Nombre: {name}</h3>
         <p>{species}</p>
         <p>{gender}</p>
       </div>
